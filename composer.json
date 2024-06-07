@@ -1,0 +1,30 @@
+{
+  "name": "cemob/visao-cliente",
+  "description": "Description of project Visão do Cliente.",
+  "homepage": "http://www.cemob.sp.caixa/sistemas/VisaoCliente",
+  "authors": [
+    {
+      "name": "Wesley Alves da Silva Santos",
+      "email": "wesley.a.santos@caixa.gov.br"
+    }
+  ],
+  "require": {
+    "doctrine/orm": "~2.7",
+    "doctrine/migrations": "~2.2",
+    "phpmailer/phpmailer": "~6.1",
+    "phpoffice/phpspreadsheet": "~1.7",
+    "phpoffice/phpword": "~0.16",
+    "ext-pdo": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~8.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Classes\\": "Classes"
+    },
+    "files": [
+      "Source/padroes.php"
+    ]
+  }
+}
